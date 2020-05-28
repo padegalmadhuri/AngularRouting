@@ -1,0 +1,38 @@
+.top {
+    background: linear-gradient(rgba(68, 68, 68, 0.34), rgba(59, 59, 59, 0.34)),url("https://sb-clean-blog.startbootstrap.com/assets/img/about-bg.jpg");
+    background-size: cover;
+}
+#title {
+    font-size: 5.4rem;
+}
+
+.icon {
+    color: black;
+}
+.icon:hover{
+  color:#0085A1;
+}
+.social-icons a{
+  background-color:black;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+
+}
+.social-icons a:hover{
+  background-color:#0085A1;
+}
+
+.social-icons.size-lg a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}

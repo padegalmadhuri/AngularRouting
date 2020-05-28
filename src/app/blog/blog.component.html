@@ -1,0 +1,70 @@
+<div class="container-fluid" class="top">
+    <div class="row" id="overlay">
+        <div class="col-lg-12">
+            <div class="container mt-2">
+              <div class="row p-2">
+                  <div class="col-lg-3 ">
+                      <a style="color:white;text-decoration:none;font-size:1.3rem;"  class="font-weight-bold" routerLink="/">Start Bootstrap</a>
+                  </div>
+                  <div class="col-lg-6 text-center">
+                  </div>
+                  <div class="col-lg-1">
+                      <a style="color:white;text-decoration:none;"  class="font-weight-bold" routerLink="/">HOME</a>
+                  </div>
+                  <div class="col-lg-1">
+                      <a style="color:white;text-decoration:none;"  class="font-weight-bold" routerLink="/about">ABOUT</a>
+                  </div>
+                  <div class="col-lg-1">
+                       <a href="https://github.com/padegalmadhuri" target="_blank">  <i style="color:white;"class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                  </div>
+              </div>
+                <div class="row p-5 ">
+                    <div class="col-lg-12 pb-5 ">
+                        <div class="container ">
+                            <div class="row mt-5">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-9 mb-5">
+                                    <h1 class="font-weight-bolder blogTitle" style="color:white;">{{data[index].name}}</h1>
+                                    <h2 style="color:white;"class="pb-4">{{data[index].abstract}}</h2>
+                                    <p class=" mb-5" style="color:white;"><i>{{data[index].date}}</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div class="container mt-5 ">
+    <div class="row mt-5" *ngFor="let item of data[index].content;index as i">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 ">
+            <h1 class="font-weight-bolder blogTitle1">{{item.title}}</h1>
+            <h4>{{item.abstract}}</h4>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-5">
+    <div class="row mt-5">
+        <div class="col-lg-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="col-lg-8 col-md-10 mx-auto">
+                          <ul class="social-icons text-center">
+                            <li class="list-inline-item"><a class="icon" href="https://facebook.com"  target="_blank" class="facebook" ><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a class="icon" class="twitter" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                             <li class="list-inline-item"><a class="icon" class="github" href="https://github.com/padegalmadhuri" target="_blank"><i class="fa fa-github"></i></a></li>
+                             </ul>
+                            <p class="copyright text-muted text-center">Copyright &copy; Your Website 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>

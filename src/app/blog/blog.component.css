@@ -1,0 +1,44 @@
+.top {
+    background-image:  linear-gradient(rgba(68, 68, 68, 0.25), rgba(59, 59, 59, 0.25)),url("https://sb-clean-blog.startbootstrap.com/assets/img/post-bg.jpg");
+    min-height:400px;
+    opacity:0.9
+}
+#title {
+    font-size: 1.5rem;
+}
+.blogTitle {
+    font-weight: 700;
+    font-size: 4.5rem;
+    font-family: Open Sans,  Helvetica, Arial, sans-serif;
+}
+
+.blogTitle1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-family: Open Sans,  Helvetica, Arial, sans-serif;
+}
+.social-icons a{
+  background-color:black;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+
+}
+.social-icons a:hover{
+  background-color:#0085A1;
+}
+
+.social-icons.size-lg a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
