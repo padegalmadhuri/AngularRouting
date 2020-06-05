@@ -1,0 +1,5 @@
+github
+https://github.com/padegalmadhuri/AngularRouting
+5068ef06bca651f278af05fe21ad780f4f16e54a
+netlify
+https://condescending-mcclintock-6db309.netlify.app/
